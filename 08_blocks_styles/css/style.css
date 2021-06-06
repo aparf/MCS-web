@@ -1,0 +1,7 @@
+.header {
+	width: 1000px;
+	height: 1000px;
+	background-color: blueviolet;
+	background-image: url(../img/Nara.jpg);
+	background-size: 100px;
+}
