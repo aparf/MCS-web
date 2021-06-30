@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+.heading h1{
+	font-size: 35px;
+
+	font-family: 'Raleway', sans-serif;
+	
+}
+.paragraph p{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+.paragraphTwo p{
+	font-size: 30px;
+	font-family: 'Rukik', sans-serif;
+}

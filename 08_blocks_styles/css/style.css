@@ -1,7 +1,16 @@
 .header {
-	width: 1000px;
-	height: 1000px;
-	background-color: blueviolet;
+	width: 700px;
+	height: 500px;
+	background-color: burlywood;
 	background-image: url(../img/Nara.jpg);
-	background-size: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bigSection{
+	height: 500px;
+	background-image: url(../img/Nara.jpg);
+	background-position: center;
+	background-attachment: fixed;
 }

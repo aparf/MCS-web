@@ -1,0 +1,18 @@
+.bordered{
+	width: 500px;
+	height: 500px;
+	border-radius: 10%;
+	border-top: 5px dashed lightblue;
+	border-bottom: 5px dashed lightblue;
+	border-left: 5px solid skyblue;
+	border-right: 5px solid skyblue;
+	/*
+	border: 2px blue dotted;
+	*/
+	/*
+	border-width: 2px;
+	border-color: blue;
+	border-style: dotted ;
+	*/
+
+}

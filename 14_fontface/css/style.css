@@ -1,0 +1,18 @@
+
+@font-face{
+	src: url(../font/prada.otf);
+	font-family: 'Prada';
+	font-weight: bolder;
+}
+.heading h1{
+	font-size: 35px;
+
+	font-family: 'Prada', sans-serif;
+	
+}
+.paragraph p{
+	font-family: 'Prada', sans-serif;
+}
+.paragraphTwo p{
+	font-family: 'Prada', sans-serif;
+}
