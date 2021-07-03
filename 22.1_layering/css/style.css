@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+.outer{
+	/*width: 600px;*/
+	height: 600px;
+	border: 3px solid red;
+	position: relative;
+	
+}
+
+.first, .second, .third{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+
+.first{	
+	position: absolute;
+	bottom: 0px;
+	background-color: mediumvioletred;
+	z-index: 0;
+}
+
+.second{
+	position: absolute;
+	bottom: 50px;
+	background-color: forestgreen;
+	z-index: 1;
+}
+
+.third{
+	position: absolute;
+	bottom: 100px;
+	background-color: dimgray;
+	z-index: 0;
+}
