@@ -1,0 +1,52 @@
+@import url(reset.css);
+@keyframes move{
+	/*from{
+		top: 0px;
+		left: 0px;
+	}
+	to{
+		top: 300px;
+		left: 300px;
+	}*/
+
+	0%{
+		top: 0px;
+		left: 0px;
+
+	}
+
+	25%{
+		top: 200px;
+		left: 1000px;
+	}
+	50%{
+		top: 400px;
+		left: 0px;
+	}
+	75%{
+		top: 250px;
+		left: 150px;
+	}
+
+	100%{
+		top: 0px;
+		left: 0px;
+	}	
+} 
+
+body{
+	background-color: lightsalmon;
+}
+.ball{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background-color: palegreen;
+	border-radius: 200px;
+
+	animation-name: move;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
